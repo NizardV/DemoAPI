@@ -5,6 +5,9 @@ using Demo.BL;
 
 namespace Demo.API.Controllers
 {
+    /// <summary>
+    /// Customers controller
+    /// </summary>
     public class CustomersController : Controller
     {
         private readonly IService _service;
